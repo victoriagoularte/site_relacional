@@ -1,0 +1,2263 @@
+a, p, span, h1, h3, h4, input, textarea, button, .card-text{
+    font-family: 'Nunito', sans-serif;
+}
+
+
+* {
+  margin: 0;
+  padding: 0; 
+}
+.row{
+    margin-left: 0;
+    margin-right: 0;
+    
+}
+
+/*menu icon*/
+
+/* Icon 1 Open*/
+/*
+#nav-icon1 {
+  width: 45px;
+  height: 30px;
+  position: relative;
+  margin-left: 19%;
+  margin-top: 1.8%;
+  margin-right: 1.5%;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: .5s ease-in-out;
+  -moz-transition: .5s ease-in-out;
+  -o-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+  cursor: pointer;
+  float: left;
+}
+
+#nav-icon1 span, #nav-icon3 span, #nav-icon4 span {
+  display: block;
+  position: absolute;
+  height: 4px;
+  width: 60%;
+  background: #d3531a;
+  border-radius: 9px;
+  opacity: 1;
+  left: 0;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: .25s ease-in-out;
+  -moz-transition: .25s ease-in-out;
+  -o-transition: .25s ease-in-out;
+  transition: .25s ease-in-out;
+}
+
+#nav-icon1 span:nth-child(1) {
+  top: 0px;
+}
+
+#nav-icon1 span:nth-child(2) {
+  top: 9px;
+}
+
+#nav-icon1 span:nth-child(3) {
+  top: 18px;
+}
+
+#nav-icon1.open span:nth-child(1) {
+  top: 9px;
+  -webkit-transform: rotate(135deg);
+  -moz-transform: rotate(135deg);
+  -o-transform: rotate(135deg);
+  transform: rotate(135deg);
+  opacity: 1;
+}
+
+#nav-icon1.open span:nth-child(2) {
+  opacity: 0;
+  left: -60px;
+}
+
+#nav-icon1.open span:nth-child(3) {
+  top: 9px;
+  -webkit-transform: rotate(-135deg);
+  -moz-transform: rotate(-135deg);
+  -o-transform: rotate(-135deg);
+  transform: rotate(-135deg);
+  opacity: 1;   
+}
+*/
+
+/*icon 1 open*/
+
+/*icon 1 close*/
+
+/*
+#nav-icon2 {
+  position: absolute;
+  top: 20px;
+  right: 25px;
+  margin-left: 50px;
+   
+  width: 45px;
+  height: 30px;
+*/
+/*
+  position: relative;
+  margin: 10px auto;
+*/
+/*
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: .5s ease-in-out;
+  -moz-transition: .5s ease-in-out;
+  -o-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+  cursor: pointer;
+}
+
+#nav-icon2 span {
+  display: block;
+  position: absolute;
+  height: 4px;
+  width: 60%;
+  background: #ffffff;
+  border-radius: 9px;
+  opacity: 1;
+  left: 0;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: .25s ease-in-out;
+  -moz-transition: .25s ease-in-out;
+  -o-transition: .25s ease-in-out;
+  transition: .25s ease-in-out;
+        
+    
+}
+
+#nav-icon2 span:nth-child(1) {
+  top: 0px;
+}
+
+#nav-icon2 span:nth-child(2) {
+  top: 9px;
+}
+
+#nav-icon2 span:nth-child(3) {
+  top: 18px;
+}
+
+#nav-icon2.open span:nth-child(1) {
+  top: 9px;
+  -webkit-transform: rotate(135deg);
+  -moz-transform: rotate(135deg);
+  -o-transform: rotate(135deg);
+  transform: rotate(135deg);
+  opacity: 1;
+}
+
+#nav-icon2.open span:nth-child(2) {
+  opacity: 0;
+  left: -60px;
+}
+
+#nav-icon2.open span:nth-child(3) {
+  top: 9px;
+  -webkit-transform: rotate(-135deg);
+  -moz-transform: rotate(-135deg);
+  -o-transform: rotate(-135deg);
+  transform: rotate(-135deg);
+  opacity: 1;    
+}
+
+*/
+
+
+
+
+
+
+/*menu icon*/
+
+
+
+/* The side navigation menu */
+
+
+
+/*
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    /* width: 0; *//* 0 width - change this with JavaScript */
+    /* position: fixed; */ /* Stay in place */
+    /* z-index: 1; */ /* Stay on top */
+/*
+    top: 0;
+    left: 0;
+*/
+    /* background-color: #0F2145; /* Black*/
+/*
+    opacity: 1;
+    overflow-x: hidden;  Disable horizontal scroll 
+*/
+/*    padding-top: 60px;  Place content 60px from the top */
+/*    transition: 0.5s;  0.5 second transition effect to slide in the sidenav */
+}
+
+.menuSidebar{
+    padding: 0px 0px 0px 72px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #ffffff;
+    display: block;
+    transition: 0.3s;
+    letter-spacing: 1px;
+}  
+
+
+/* The navigation menu links */
+/*
+.sidenav a {
+    padding: 28px 8px 8px 72px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #ffffff;
+    display: block;
+    transition: 0.3s;
+    letter-spacing: 1px;
+}
+*/
+
+
+/* When you mouse over the navigation links, change their color */
+/*
+.sidenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+*/
+
+/* Position and style the close button (top right corner) */
+/*
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+*/
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+/*
+#main {
+    transition: margin-left .5s;
+    padding: 0px; 20px
+}
+*/
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+/*
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+*/
+.navHeader{
+    height: 0;
+}
+
+.menuSidebar a
+{
+  text-decoration: none;
+  color: #fff;
+  
+  transition: color 0.3s ease;
+}
+
+
+.menuSidebar a:hover
+{
+  color: tomato;
+}
+
+#menuToggle
+{
+  display: block;
+  position: relative;
+  top: 30px;
+  padding-left: 50px;
+  
+  z-index: 1;
+  
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+#menuToggle input
+{
+  margin-left: 180px;
+  display: block;
+  width: 33px;
+  height: 32px;
+  position: absolute;
+  top: -7px;
+/*  left: -5px;*/
+  
+  cursor: pointer;
+  
+  opacity: 0; /* hide this */
+  z-index: 2; /* and place it over the hamburger */
+  
+  -webkit-touch-callout: none;
+}
+
+/*
+ * Just a quick hamburger
+ */
+#menuToggle span
+{
+  margin-left: 180px;    
+  display: block;
+  width: 33px;
+  height: 4px;
+  margin-bottom: 5px;
+  position: relative;
+  
+  background: #0F2145;
+  border-radius: 3px;
+  
+  z-index: 1;
+  
+  transform-origin: 4px 0px;
+  
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              opacity 0.55s ease;
+}
+
+#menuToggle span:first-child
+{
+  transform-origin: 0% 0%;
+}
+
+#menuToggle span:nth-last-child(2)
+{
+  transform-origin: 0% 100%;
+}
+
+/* 
+ * Transform all the slices of hamburger
+ * into a crossmark.
+ */
+#menuToggle input:checked ~ span
+{
+  opacity: 1;
+  transform: rotate(45deg) translate(-2px, -1px);
+  background: #fff;
+}
+
+/*
+ * But let's hide the middle one.
+ */
+#menuToggle input:checked ~ span:nth-last-child(3)
+{
+  opacity: 0;
+  transform: rotate(0deg) scale(0.2, 0.2);
+}
+
+/*
+ * Ohyeah and the last one should go the other direction
+ */
+#menuToggle input:checked ~ span:nth-last-child(2)
+{
+  transform: rotate(-45deg) translate(0, -1px);
+}
+
+/*
+ * Make this absolute positioned
+ * at the top left of the screen
+ */
+#menu
+{
+  position: absolute;
+  width: 300px;
+  margin: -100px 0 0 -50px;
+  padding: 50px;
+  padding-top: 55px;
+  
+  background: #0F2145;
+  list-style-type: none;
+  -webkit-font-smoothing: antialiased;
+  /* to stop flickering of text in safari */
+  
+  transform-origin: 0% 0%;
+  transform: translate(-100%, 0);
+  
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+}
+
+#menu li
+{
+  padding: 10px 0;
+  font-size: 22px;
+}
+
+/*
+ * And let's slide it in from the left
+ */
+#menuToggle input:checked ~ ul
+{
+  transform: none;
+}
+
+
+#menuTitle{
+    color: #fff;
+    font-size: 25px !important;
+    padding-bottom: 30px !important;
+    font-weight: 500;
+}    
+.portugueseLanguage{
+    float: left;
+    
+}
+
+.englishLanguage{
+    float: right;
+    display: inline-block;
+    margin-right: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*background_1_Beginning*/
+
+#background_1{
+    padding-right: 0px;
+    
+}
+
+#main{
+    height: 385px;
+/*    background-color: lightgray;*/
+    
+    
+}
+
+.textBgOne{
+    padding: 0;
+    
+}
+#columnFourBgOne{
+    padding-right: 0px;
+    
+}
+
+
+
+
+
+
+
+.logoRelacional{
+    float: left;
+    margin-top: 3%;
+    
+    
+}
+
+
+.slogan{
+    margin-top: 30%;
+    text-align: left;
+}
+.slogan p{
+    font-weight: 400;
+    font-size: 25px;
+    color: #4F5D68;
+    letter-spacing: 1.3px;
+    
+}
+.slogan span{
+    font-size: 18px;
+    color: #4F5D68;
+    letter-spacing: 1.09px;
+
+}
+/*background_1_end*/
+
+/*background_2_Beginning*/
+
+
+#background_2{
+    padding-left: 0px;
+    height: 681px;
+/*    background-color: lightslategray;*/
+    
+}
+.secondImage{
+    transform: scale(1.3, 1.3);
+    
+}
+
+    
+    
+    
+}
+
+.aboutUs{
+    margin-top: 15%;
+    
+}
+
+
+#background_2 P{
+    font-weight: 400;
+    font-size: 25px;
+    color: #4F5D68;
+    letter-spacing: 1.3px;
+}
+
+#background_2 span{
+    font-size: 18px;
+    color: #4F5D68;
+    letter-spacing: 1.09px;
+    text-align: left;
+
+}
+.textAboutus{
+    margin-top: 20%;
+    padding-right: 10%;
+    
+    
+}
+
+.aboutUsImage{
+    padding: 0;
+    
+}
+/*background_2_end*/
+
+/*background_3_Beginning*/
+#background_3{
+    padding-right: 0;
+    padding-left: 0;
+}
+
+
+#background_3 .services{
+    
+    height: 406px;
+/*    background-color: lightblue;*/
+    padding: 0;
+}
+.services{
+    width: 100%;
+    
+}
+
+
+#oursServices{
+    margin-top:50%;
+    margin-left: 30%;
+    font-weight: 400;
+    font-size: 25px;
+    color: #4F5D68;
+    letter-spacing: 1.3px;
+}
+
+    
+/*cards*/
+
+
+/* cards 1
+
+.row_cards {
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.row_cards > div[class*='col-'] {
+  display: flex;
+}
+.card{
+    min-height: 100%;
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0);
+    border-radius: 0.75rem;
+    -webkit-box-shadow: 3px 10px 20px 4px rgba(166,163,166,1);
+    -moz-box-shadow: 3px 10px 20px 4px rgba(166,163,166,1);
+    box-shadow: 3px 10px 20px 4px rgba(166,163,166,1);
+
+}
+
+.card-title {
+    margin-top: 2rem;
+    padding-left: 2rem;
+    font-weight: 400;
+    color: #4F5D68;
+
+}
+
+.card-text{
+    padding-left: 2rem;
+    padding-right: 2rem;
+    color: #4F5D68;
+    text-align: justify;
+    
+}
+
+
+.plusIconbutton{
+    height: 62px;
+    width: 62px;
+    margin-top: 60%;
+    border-radius: 200px 200px 200px 200px;
+    -moz-border-radius: 200px 200px 200px 200px;
+    -webkit-border-radius: 200px 200px 200px 200px;
+    border: 2px solid #4F5D68;
+    
+}
+cards 1*/ 
+
+/*cards 2*/
+.cards{
+    background-color: lightgray;
+    border: 1px solid rgba(0, 0, 0, 0);
+    border-radius: 0.50rem;
+    -webkit-box-shadow: 3px 2px 18px 1px rgba(204,204,204,0.67);
+    -moz-box-shadow: 3px 2px 18px 1px rgba(204,204,204,0.67);
+    box-shadow: 3px 2px 18px 1px rgba(204,204,204,0.67);  
+    
+}
+.serviceCards{
+    padding-left: 0px;
+    padding-right: 0px;
+    
+    
+}
+#service_anchor{
+    color: #4A4A4A;
+    margin-top: 0;
+    margin-bottom: 30px;
+    font-weight: 400;
+    
+}
+#services{
+    cursor:move; /*move*/
+    width: 100%;
+    height: 70%;
+    padding-left: 0px;
+    padding-right: 0px;
+/*    background-color: lightpink;*/
+    position: relative;
+/*    margin-top: 666px;*/
+/*    margin-top: -7%;*/
+    z-index: 1;
+/*    align-items: center;*/
+}
+
+@media screen and (max-width: 767px) {
+    #services {
+        margin-top: -12%;
+    }
+}
+
+/*scroll*/
+.tabSelector-wrapper {
+    overflow-x: auto;
+    overflow-y: hidden;
+    text-align: center;
+    line-height: 0;
+/*    margin-top: 20px;*/
+}
+.tabSelector {
+    display: inline-block;
+    white-space: nowrap;
+    width: 100%;
+    background-color: transparent;
+    list-style-type: none;
+    margin: 0;
+}
+
+/*
+.tabSelector.open{
+    height: 450px;
+}
+*/
+
+
+.tabSelector li {
+    display: inline-block;
+    white-space: normal;
+    height: 300px;
+    width: 346px;
+    background-color: transparent;
+}
+
+
+
+.tabSelector .cards {
+    display: table;
+   
+    width: 85%;
+    color: #959595;
+    background-color: #ffffff;
+    padding: 5px 17px 0;
+    margin-left: 21px;
+    overflow:hidden;
+}
+/*
+.tabSelector a span {
+    display: table-cell;
+    vertical-align: middle;
+}
+*/
+.z-depth-2 span{
+/*    background-color: aquamarine;*/
+}
+.service_text{
+    height: 40%;
+    padding-top: 3%;
+}
+
+.cards .text-center{
+    letter-spacing: 1px;
+    padding-top: 10px;
+    
+}
+.texto_paragrafo_service{
+    font-size: 1.1em;
+    color: #9B9B9B;
+    font-weight: 300;
+    line-height: 150%;
+    text-align: justify;
+    padding: 10px;
+}
+
+/*DRAGBAR AQUI!*/
+
+.mCSB_scrollTools.mCSB_scrollTools_horizontal a + .mCSB_draggerContainer{
+    margin: 0 20px;
+/*
+    margin-left: 28%;
+    margin-right: 22%;
+*/
+}
+
+/*
+.mCSB_draggerContainer{
+    width: 40%;
+    margin-top:0px;
+}
+.mCSB_dragger{
+    width: 100%;
+    
+}
+*/
+
+
+/*DRAGBAR AQUI!*/
+
+/*background_cases*/
+#background_cases{
+    width: 100%;
+    padding: 0;
+    margin-bottom: 100px;
+    margin-top: 50px;
+/*    background-color: lightcyan;*/
+}
+#cases_anchor{
+    font-weight: 400;
+    font-size: 25px;
+    color: #4F5D68;
+    letter-spacing: 1.3px;
+    text-align: right;
+    margin-right: 15%;
+}
+
+
+.clientes{
+    margin-bottom: 50px;
+    
+}
+.gallery{
+    width: 100%;
+/*    padding-left: 5%;*/
+        box-shadow: 0.175em 0.175em 1.0em #CCCCCC;
+
+}
+
+.verticalGallery{
+    padding: 0;
+    
+}
+@media screen and (max-width: 767px) {
+    .gallery {
+/*      margin-left: 8%;*/
+    }
+}
+
+
+.thumb {
+/*    margin-bottom: 30px;*/
+        display: inline-block;
+/*    background-color: lightblue;*/
+
+}
+.thumb:hover{
+    background-color: lightgray;   
+}
+
+.thumbnail{
+    background-color: transparent;
+    border: none;
+    
+}
+/*about:hover*/
+
+.img-thumb{
+  width: 24.7%;
+  position: relative;
+}
+
+
+.overlay{
+    width: 100%;
+    height: 250px;
+/*    background-color: #fff;*/
+
+}
+
+@media screen and (min-width: 991px) and (max-width: 1125px) {
+    .img-thumb {
+        width: 49%;
+        position: relative;
+        text-align: center;
+        display: inline-block;
+        *display:inline; /* ie7 fix */
+        float: none; /* this is the part that makes it work */
+        padding: 0;    
+    }
+    .verticalGallery{
+        margin: 0 auto;
+        width: 100%;
+        padding-left: 20%;
+    } 
+    .overlay{
+        height: 200px;
+    }
+    
+}
+@media screen and (min-width: 768px) and (max-width: 990px) {
+    .img-thumb {
+        width: 49%;
+        position: relative;
+        text-align: center;
+        display: inline-block;
+        *display:inline; /* ie7 fix */
+        float: none; /* this is the part that makes it work */
+        padding: 0;    
+    }
+    .verticalGallery{
+        margin: 0 auto;
+        width: 100%;
+        padding-left: 20%;
+    } 
+    .overlay{
+        height: 180px;
+    }
+    
+}
+
+
+
+@media screen and (min-width: 651px) and (max-width: 767px) {
+    .img-thumb {
+        width: 37%;
+        position: relative;
+        text-align: center;
+        display: inline-block;
+        *display:inline; /* ie7 fix */
+        float: none; /* this is the part that makes it work */
+    }
+    .verticalGallery{
+        margin: 0 auto;
+        width: 100%;
+        padding-left: 20%;
+    } 
+    .overlay{
+        height: 160px;
+    }
+    
+}
+
+@media screen and (min-width: 500px) and (max-width: 650px) {
+    .img-thumb {
+        width: 43%;
+        position: relative;
+        text-align: center;
+        display: inline-block;
+        *display:inline; /* ie7 fix */
+        float: none; /* this is the part that makes it work */
+    }
+    .verticalGallery{
+        margin: 0 auto;
+        width: 100%;
+        padding-left: 13%;
+    } 
+    .overlay{
+        height: 170px;
+    }
+    
+}
+
+@media screen and (min-width: 400px) and (max-width: 499px) {
+    .img-thumb {
+        width: 43%;
+        position: relative;
+        text-align: center;
+        display: inline-block;
+        *display:inline; /* ie7 fix */
+        float: none; /* this is the part that makes it work */
+        padding-top: 10px;
+    }
+    .verticalGallery{
+        margin: 0 auto;
+        width: 100%;
+        padding-left: 11%;
+    } 
+    .overlay{
+        height: 150px;
+    }
+    
+}
+
+
+
+
+
+
+
+.overlay:hover{
+    background-color: lightgray;
+    
+}
+.thumbnail img{
+    width: 100%;
+    vertical-align: middle;
+/*    text-align: center !important; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#background_4{
+    height: 948px;
+/*
+    background-image:url(../images/fourthImageGroup.png);
+    background-repeat: no-repeat;
+    transform: scale(1.3,1.3)
+*/
+    padding: 0;
+    
+}
+
+/*ORACLE BOX*/
+
+.oracle{
+    z-index: 2;
+    background-color: #ffffff;
+    margin: 0 auto;
+    margin-bottom: 13%;
+    width: 50%;
+    height: 33%; /*310px*/
+/*
+    border-radius: 0.50rem;
+    -webkit-box-shadow: 3px 2px 18px 1px rgba(204,204,204,0.67);
+    -moz-box-shadow: 3px 2px 18px 1px rgba(204,204,204,0.67);
+    box-shadow: 3px 2px 18px 1px rgba(204,204,204,0.67);  
+*/
+}
+#oracleAnchor{
+    width: 80%;
+    
+}
+
+.oraclePartner{
+    margin-top:10%;
+    margin-left: 10%;
+    font-weight: 400;
+    font-size: 25px;
+    color: #4F5D68;
+    letter-spacing: 1.3px;
+    
+}
+
+.oracleLogo{
+    margin-top:12%;
+    margin-left: 8%;
+    
+}
+.horizontalLine{
+    width: 99%;
+    
+}
+
+
+.oracleDescription{
+    margin-top: 4%;
+    margin-left: 8%;
+/*    background: lightblue;*/
+    width: 50%;
+    text-align: left;
+    line-height: 100%;
+    
+}
+
+.moreInfo{
+    margin-right: 8%;
+    margin-top: 4%;
+    
+}
+.knowMore{
+    border: 2px solid #B53F2C;
+    padding: 8px 21px;
+    border-radius: 25px;
+    height: 40px;
+
+  
+     
+}
+.knowMore.open{
+/*    margin-left: 80%;*/
+/*    margin-top: -11.8%;*/
+    padding: 8px 21px;   
+}
+
+
+
+.knowMore a:link{
+    text-decoration: none;
+}
+
+.knowMore p{
+    color: #B53F2C;
+   
+}
+
+.knowMore:hover{
+    transform: scale(1.01, 1.01);
+    box-shadow: 0 0 10px rgba(181,63,44,.2);
+
+}
+
+/*
+.inlineblock { 
+    display: inline-block;
+    zoom: 1;
+    display*: inline; 
+    background-color: #f0f;
+    width: 50%;
+}
+*/
+
+
+
+.oracleCertifications{
+    display: inline-block;
+    display*: inline; /* ie hack */
+    position: absolute;
+    z-index: 1;
+    margin-left: -35%;
+    width: 50%;
+/*    height: 60%;*/
+    background-color: #ffffff;
+    border-radius: 0.50rem;
+     -webkit-box-shadow: 3px 2px 18px 1px rgba(204,204,204,0.67);
+    -moz-box-shadow: 3px 2px 18px 1px rgba(204,204,204,0.67);
+    box-shadow: 3px 2px 18px 1px rgba(204,204,204,0.67);  
+
+}
+/*
+.leftCertifications{
+    margin-left: 10%;
+    
+}
+.rightCertifications{
+    margin-right: 10%;
+    
+}
+*/
+
+.imageCertifications{
+    padding: 5% 0%;
+    
+    
+}
+
+.imageCertifications ul li{
+        list-style-type: none;
+}
+.imageCertifications img{
+    width: 90%;
+    
+}
+
+
+
+
+.fourthImage{
+    z-index: -1;
+    margin-top: 12%;
+    position: absolute;
+    width: 100%
+}
+
+.contacts{
+    z-index: 2;
+    background-color: #ffffff;
+    margin: 0 auto;
+    width: 50%;
+    height: 40%; /*310px*/
+    border-radius: 0.50rem;
+     -webkit-box-shadow: 3px 2px 18px 1px rgba(204,204,204,0.67);
+    -moz-box-shadow: 3px 2px 18px 1px rgba(204,204,204,0.67);
+    box-shadow: 3px 2px 18px 1px rgba(204,204,204,0.67);    
+}
+.contactBox{
+    font-weight: 400;
+    font-size: 25px;
+    color: #4F5D68;
+    letter-spacing: 1.3px;
+}
+
+.contactBox p{
+    padding-top: 5%;
+    
+}
+
+/************form************/
+
+.nameForm{
+    border-radius: 0;
+    border: 0;
+    border-bottom: 1px solid #4F5D68; 
+    width: 40%;
+    display: inline-block;
+    margin-left: 3%;   
+}
+.emailForm{
+    border-radius: 0;
+    border: 0;
+    border-bottom: 1px solid #4F5D68; 
+    width: 40%;
+    display: inline-block;
+    margin-left: 11%;
+
+    
+}
+.messageForm{
+    border-radius: 0;
+    border: 0;
+    border-bottom: 1px solid #4F5D68; 
+    width: 100%;
+}
+
+.form-horizontal{
+    width: 100%;
+    margin-top: 5%;
+    
+}
+.messageBox{
+    margin-top: 7%;
+    margin-left: 3%;
+    width: 92%;
+}
+
+.bootstrap-iso .form-control:focus {
+    border-bottom: 2px solid #4F5D68;    
+    -webkit-box-shadow: none; 
+    box-shadow: none;
+        transition: all 0.3s ease-in-out;
+
+}
+
+.formButton{
+    border: 2px solid #B53F2C;
+    padding: 6px 80px;
+    border-radius: 25px;
+    background-color: transparent;
+    color: #B53F2C;
+    cursor: pointer;
+    margin-top: 5%;
+    transition: all 0.3s ease-in-out;
+}
+
+
+.formButton:hover{
+    transform: scale(1.01, 1.01);
+    box-shadow: 0 0 18px rgba(181,63,44,.2);
+}
+
+
+/****************background_five***************/
+
+#background_5{
+    padding: 0;
+}
+
+
+#map{
+    width: 100%;
+    height: 400px;
+    /*    background-color: gray;*/
+}
+
+
+/*footer*/
+
+
+.footer{
+    padding: 0;
+    width: 100%;
+    height: 130px;
+    
+}
+.footerInfo{
+    height: 70%;
+    width: 60%;
+/*    background: lightgray;*/
+    padding-top: 2%;
+    
+}
+.footerInfo img{
+    width: 25px;
+    height: 34px;
+    
+}
+.addressFooter{
+    width: 300px;
+    display: block;
+    margin-right: 20px;
+    margin-left: 30px;
+}
+.addressFooter img{
+    float: left;
+    
+}
+.emailFooter{
+    width: 210px;
+    display: inline-block;
+        margin-left: 30px;
+
+    
+}
+.footerInfo p{
+    display: inline-block;
+    float: right;
+}
+
+
+/***********MEDIA-QUERIES***********/
+
+/***********MAX-WIDTH 1240PX***********/
+
+@media only screen and (min-width: 951px) and (max-width: 1240px){
+    #menuToggle span {
+    margin-left: 20px;
+    }
+    #menuToggle input {
+    margin-left: 20px;
+
+    }
+    #menu{
+        width: 340px;
+        padding-left: 120px;
+    }
+    .logoRelacional{
+    margin-top: 4%;
+    margin-left: 25%;
+    width: 32%;
+    }
+    
+    
+    #columnFourBgOne img{
+    width:0;
+    float: right; 
+    }
+    #background_1 .row{
+    background-image: url(../images/firstImageGroup.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right top;
+    }
+    
+    .textBgOne{
+        padding-bottom: 8%;
+        
+    }
+    .slogan {
+    margin-left: 25%;
+    }
+    .slogan p{
+    font-size: 22px;
+
+    
+    }
+    .slogan span{
+        font-size: 16px;
+
+    }
+    #background_2{
+    height: 550px;
+    margin-bottom: 10%;
+    }
+    #background_2 P{
+    font-size: 22px;
+
+    }
+
+    #background_2 span{
+    font-size: 16px;
+
+    }
+    .textAboutus {
+    padding-right: 17%;
+    }
+    #background_3 .services {
+    height: 210px;
+    margin-bottom: 5%
+    }
+    #oursServices {
+    margin-top: 23%;
+    font-size: 22px;
+        display: inline-block;
+    }
+    .serviceCards {
+    height: 390px;
+    }
+    
+    #background_4 {
+    height: 780px;
+    }
+    .fourthImage{
+    transform: scale(1.0,1.0); 
+    margin-left: 0%; 
+    width: 100%;
+    }
+    .oracle{
+    height: 30%;
+
+        
+    }
+    .oraclePartner {
+    margin-top: 5%;
+    margin-left: 5%;
+    font-size: 22px;
+    }
+    .oracleLogo {
+    margin-top: 5%;
+    margin-left: 4%;
+    }
+    .oracleDescription {
+    margin-left: 4%;
+    }
+    .moreInfo {
+    margin-top: 10%;
+    }
+    
+    .oracleCertifications{
+    margin-left: -32%;
+    }
+    .contacts{
+    height: 42%;
+    }
+    .contactText{
+    margin-bottom: 0;
+    }
+    .footerInfo{
+        width: 40%;
+    }
+    
+}
+
+
+/***********MAX-WIDTH 950PX***********/
+
+
+@media only screen and (min-width: 768px) and (max-width: 950px){
+    #menuToggle span {
+    margin-left: 20px;
+    }
+    #menuToggle input {
+    margin-left: 20px;
+
+    }
+    #menu{
+        width: 340px;
+        padding-left: 120px;
+    }
+    
+    
+    
+    .logoRelacional{
+        width: 45%;
+        margin-top: 5%;
+        margin-left: 30%;
+    }
+    .slogan{
+        margin-left:30%;
+        margin-top:25%;
+    }
+    
+    .slogan p{
+    font-size: 20px;
+
+    
+    }
+    .slogan span{
+        font-size: 14px;
+
+    }
+    #columnFourBgOne img{
+    width:0;
+    float: right; 
+    }
+    #background_1 .row{
+    background-image: url(../images/firstImageGroup.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right top;
+    }
+    #background_2{
+    height: 445px;    
+    }
+    #background_2 P{
+    font-size: 20px;
+
+    }
+
+    #background_2 span{
+    font-size: 14px;
+
+    }
+    .textAboutus {
+    margin-top: 25%;
+    padding-right: 5%;
+    }
+    #background_3 .services{
+    height: 240px;
+
+    }
+    #oursServices {
+    margin-top: 30%;
+    font-size: 20px;
+    }
+    .serviceCards {
+    height: 360px;
+    }
+    #cases_anchor{
+    font-size: 20px;
+    }
+    
+    .fourthImage{
+     width: 100%;
+     transform: scale(1.0,1.0); 
+     margin-left: 0; 
+    }
+    #background_4{
+        height: 630px;
+    }
+    .oracle{
+        margin-bottom: 10%;
+    }
+    .oraclePartner {
+    margin-top: 5%;
+    margin-left: 3%;
+    font-size: 20px;
+    }
+    .oracleLogo {
+    margin-top: 0%;
+    margin-left: 3%;
+    }
+    
+    .oracleDescription {
+    margin-left: 3%;
+    width: 80%;
+    }
+    .oracleText{
+        margin-bottom: 0;
+        
+    }
+    .knowMore.open {
+    margin-left: 0%;
+    margin-top: 0;
+    }
+    .oracleCertifications{
+    margin-left: 11.1%;
+    width: 50%;
+    margin-left: -30%;;
+    }
+    .leftCertifications{
+    max-width: 47%;
+    }
+    
+    .rightCertifications{
+        max-width: 47%;
+    }
+    
+    
+    .contacts{
+        height: 47%;
+    }
+    .contactText{
+        margin-bottom: 0;
+    }
+    .footerInfo{
+        width: 45%;
+    }
+    
+}
+
+
+
+
+
+
+
+
+/***********MAX-WIDTH 768PX***********/
+
+
+
+
+
+@media only screen and (min-width: 652px) and (max-width: 767px){
+    #main{
+        height: 250px;
+        
+    }
+    #menuToggle span {
+    margin-left: -36px;
+    }
+    #menuToggle input {
+    margin-left: -36px;
+
+    }
+    .englishLanguage {
+    margin-right: 135px;
+    }
+    
+    
+    .slogan{
+    width: 90%;
+    margin-left: 8%;
+    margin-top: 10%;
+    margin-bottom: 7%;
+        
+    }
+    .slogan p{
+    font-size: 18px;
+    width: 55%;
+
+    
+    }
+    .slogan span{
+        font-size: 14px;
+
+    }
+    
+    
+    #columnFourBgOne img{
+        width:0;
+        float: right; 
+    }
+
+    .textBgOne{
+                background-image: url(../images/firstImageGroup.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: right top;
+        
+        
+    }
+    .logoRelacional{
+    width: 26%;
+    margin-left: 8%;
+        
+    }
+    #background_2{
+    height: 443px;
+        
+    }
+    
+    #background_2 P{
+    font-size: 20px;
+
+    }
+
+    #background_2 span{
+    font-size: 14px;
+
+    }
+    .secondImage{
+        width:0%;        
+    }
+    .aboutUsImage{
+/*        background-image: url(../images/secondImageGroup.png);*/
+        background-repeat: no-repeat;
+        background-position: left bottom;
+        background-size: contain;
+        
+    }
+    .textAboutus {
+    margin-top: 15%;
+    padding-right: 2%;
+    }
+    
+    .row.services{
+/*        background-image: url(../images/thirdImageGroup.png);*/
+        background-repeat: no-repeat;
+        background-position: right top;
+        background-size: contain;
+        
+    }
+    #background_3 .services{
+        height: 265px;
+
+    }
+    #oursServices{
+        margin-top: 10%;
+        margin-left: 10%;
+        font-size: 20px;
+        
+    }
+    .serviceCards{
+        height: 320px;
+    }
+    .z-depth-2 h4{
+        font-size: 20px;
+    }
+    
+    
+
+    
+    .fourthImage{
+        width: 100%;   
+        margin-top: 26%;
+    }
+    #background_4{
+        height: 540px;
+    }
+    .oracle{
+        margin-top: 3%;
+        width: 70%;
+        height: 40%;
+        margin-bottom: 3%;
+    }
+    .oracleLogo{
+        margin-top: 2%;
+        margin-left: 4%;
+
+        
+    }
+    .oracleLogo img{
+        width: 70%;
+    }
+    
+    .oraclePartner{
+        font-size: 20px;
+        margin-top: 5%;
+        margin-left: 5%;
+        
+    }
+    .oracleText{
+        font-size: 14px;
+        margin-bottom: 0;
+    }
+    .oracleDescription{
+        margin-left: 4%;
+        width: 92%;
+        
+    }
+    
+    
+    .moreInfo{
+        margin-top: 0%;
+        margin-right: 0;
+    }
+
+    
+    .knowMore.open{
+        width: 125px; 
+    }
+    .oracleCertifications {
+    margin-left: -49%;
+    width: 70%;
+}
+    .contacts{
+        height: 52%;
+        width: 70%;
+/*
+        position: absolute;
+        z-index: -1;
+        margin-left: 25%;
+        
+*/
+        
+    }
+    .contactBox{
+        font-size: 20px;
+        
+    }
+    .contactText{
+        margin-bottom: 0;
+        
+    }
+    .form-horizontal{
+        margin-top: 2%;
+        
+    }
+    .form-group{
+    margin-bottom: 0;
+    }
+    .footerInfo{
+        width: 45%;
+        font-size: 14px;
+        
+    }
+    .addressFooter{
+        padding-right: 25px;
+    }
+}
+
+#background_bgTeste{
+/*    background-image: url(../images/bgTest.jpg);*/
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 0;
+/*    background-color: lightcyan;*/
+    
+}
+
+    .thirdImage{
+        z-index: -1;
+/*        margin-top: 12%;*/
+        position: absolute;
+        width: 100%
+    }
+
+
+/***********MAX-WIDTH 640PX***********/
+
+@media only screen and (min-width: 540px) and (max-width: 651px){
+     #columnFourBgOne img{
+        width:0;
+        float: right; 
+    }
+    #menuToggle span {
+    margin-left: -36px;
+    }
+    #menuToggle input {
+    margin-left: -36px;
+
+    }
+    .englishLanguage {
+    margin-right: 135px;
+    }
+    
+
+    .textBgOne{
+                background-image: url(../images/firstImageGroup.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: right top;
+        
+        
+    }
+    
+    
+    .logoRelacional{
+        width:28%;
+        margin-left: 12%;
+            margin-top: 27px;
+        
+    }
+    .slogan{
+        margin-left:-28%;
+        width: 49%;   
+        margin-top: 18%;
+        margin-bottom: 10%;
+    }
+     .slogan p{
+    font-size: 14px;
+         margin-bottom: 0;
+
+    
+    }
+    .slogan span{
+        font-size: 12px;
+
+    }
+    
+    
+    #background_2{
+        height: 330px;
+        
+    }
+    #background_2 P{
+    font-size: 18px;
+
+    }
+
+    #background_2 span{
+    font-size: 12px;
+
+    }
+    .textAboutus{
+        padding-right: 0%;
+        margin-top: 8%;
+    }
+    
+    #oursServices{
+    margin-top: 10%;
+    margin-left: 10%;
+    font-size: 18px;
+
+    }
+    
+    #cases_anchor{
+    font-size: 18px;
+    }
+    
+    #background_3 .services {
+    height: 235px;
+    }
+    .serviceCards {
+    height: 350px;
+    }
+    
+    .z-depth-2 h4{
+    font-size: 18px;
+    }
+    
+    .oracle {
+    height: 35%;
+    margin-bottom: 10%;  
+    width: 80%;
+        margin-top: 5%;
+    }
+    .oraclePartner{
+    font-size: 18px;
+    margin-top: 5%;        
+    }
+    
+    
+    #oracleAnchor{
+    width: 90%;   
+    }
+    #oracleAnchor p{
+    margin-bottom:0;
+    }
+    .oracleLogo{
+        margin-top: 5%;
+    }
+    .oracleText{
+    font-size: 12px;
+    }
+    .oracleDescription {
+    width: 43%;
+    text-align: justify;
+    }
+   .moreInfo {
+    margin-top: 4%;
+    margin-left: 35px;
+    }
+    .knowMore.open {
+    margin-top: 0%;
+    margin-right: 0%;
+    margin-left: 0%;
+    }
+    
+    
+    .oracleCertifications {
+    width: 80%;
+    margin-left: -51.9%;
+    }
+    
+    
+    
+    #background_4 {
+    height: 540px;
+    }
+    .fourthImage {
+    margin-top: 36%;
+    }
+    .contacts {
+    height: 44%;
+    width: 80%;
+    }
+    .contactBox{
+    font-size: 18px;
+        
+    }
+    .contactBox p{
+    padding-top: 2%;
+    }
+    
+    
+    
+    .form-horizontal {
+    width: 100%;
+    margin-top: -5%;
+    }
+    .emailForm{
+    width: 91%;
+    display: block;
+    margin-left: 3%;
+    margin-top: 2%;
+        
+    }
+    .nameForm{
+    width: 91%;
+    }
+    
+    .messageBox {
+    margin-top: 0%;
+    width: 91%;
+    margin-bottom: 0;    
+    }
+    .formButton{
+    margin-top: 3%;
+    }
+    
+    
+    .footerInfo {
+    width: 60%;
+    }  
+}
+
+
+
+
+
+
+@media only screen and (min-width: 400px) and (max-width: 539px){
+    #background_1{
+     padding-left: 10px; 
+        margin-bottom: 80px;
+    }
+    #menuToggle span {
+    margin-left: -36px;
+    }
+    #menuToggle input {
+    margin-left: -36px;
+
+    }
+    .englishLanguage {
+    margin-right: 135px;
+    }
+    
+    
+    #columnFourBgOne img{
+        width:0;
+        float: right; 
+    }
+
+    .textBgOne{
+                background-image: url(../images/firstImageGroup.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: right top;
+        
+        
+    }
+    
+    
+    .logoRelacional{
+    width: 27%;
+    margin-top: 27px; 
+    margin-right: 0%;
+    margin-left: 12%;    
+        
+    }
+    .slogan{
+        margin-top: 15%;
+        padding-left: 2%;
+        width: 63%;
+        margin-bottom: 5%;
+
+    }
+    .slogan p{
+        font-size: 12px;
+        margin-bottom: 0;
+    }
+    .slogan span {
+    font-size: 12px;
+    }
+
+    .title{
+        font-size:16px;    
+    }
+    .textAboutus {
+    padding-right: 0%;
+    margin-top: 2%;
+    }
+    #background_2 {
+    padding-right: 0;
+    height: 270px;
+    }
+    
+    #background_2 P {
+    font-size: 16px;
+    margin-bottom: 0;
+    }
+    #background_2 span {
+    font-size: 12px;
+    }
+    #background_3 .services {
+    height: 165px;
+    }
+    .serviceCards{
+        height: 330px;
+        margin-top: 3%;
+    }
+    #oursServices {
+    margin-top: 12%;
+    margin-left: 2%;
+    font-size: 16px;
+    }
+    #cases_anchor{
+    font-size: 16px;
+    }
+    
+    #background_4 {
+    height: 440px;
+    }
+    .fourthImage{
+        margin-top: 40%;
+    }
+    .oracle{
+    width: 90%;
+    margin-top: 10%;
+    height: 40%;
+        margin-bottom: 8%;
+
+    }
+    .oraclePartner {
+    margin-top: 5%;
+    margin-left: 4%;
+    }
+    .oracleDescription {
+    margin-top: 2%;
+    letter-spacing: 1px;
+    width: 48%;
+    margin-left: 3%;
+    }
+    .oracleText{
+    font-size: 12px;
+    }
+    .oracleLogo {
+    margin-top: 0%;
+    margin-left: 3%;
+    }
+    .moreInfo {
+    margin-top: 5%;
+    }
+    .knowMore.open {
+    margin-top: 0%;
+    margin-left: 0;
+    }
+    .oracleCertifications{
+    width: 90%;
+    margin-left: -55%;
+        
+        
+    }
+    .leftCertifications{
+    max-width: 45%;
+    }
+    
+    .rightCertifications{
+    max-width: 45%;
+    }
+    
+    
+    .contacts{
+    width: 90%;
+    height: 44%;
+        
+    }
+    .contactBox p {
+    padding-top: 2%;
+    }
+    .contactText{
+        margin-bottom: 0;
+    }
+    .bootstrap-iso{
+        padding: 0;
+    }
+    .form-horizontal{
+        margin: 0;
+    }
+    .messageBox {
+    margin-top: 0%;
+    }
+    .form-group {
+    margin-bottom: 0;
+    }
+    .formButton{
+    margin-top: 3%;
+
+    }
+    #map{
+        height: 300px;
+    }
+    
+    
+    .footer{
+    height: 100px;
+    }    
+    .footerInfo {
+    width: 80%;
+    font-size: 12px;
+    }
+    .addressFooter {
+    padding-right: 65px;
+    }
+    
+    
+    .emailFooter{
+    padding-right: 43px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*======back-to-top=======*/
+
+.cd-top {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  position: fixed;
+  bottom: 40px;
+  right: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  /* image replacement properties */
+  overflow: hidden;
+  text-indent: 100%;
+  white-space: nowrap;
+  background: transparent url(/images/goUp.png) no-repeat center 50%;
+    background-size: contain;
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: opacity .3s 0s, visibility 0s .3s;
+  -moz-transition: opacity .3s 0s, visibility 0s .3s;
+  transition: opacity .3s 0s, visibility 0s .3s;
+  z-index: 10;
+}
+.cd-top.cd-is-visible, .cd-top.cd-fade-out, .no-touch .cd-top:hover {
+  -webkit-transition: opacity .3s 0s, visibility 0s 0s;
+  -moz-transition: opacity .3s 0s, visibility 0s 0s;
+  transition: opacity .3s 0s, visibility 0s 0s;
+}
+.cd-top.cd-is-visible {
+  /* the button becomes visible */
+  visibility: visible;
+  opacity: .5;
+}
+.cd-top.cd-fade-out {
+  /* if the user keeps scrolling down, the button is out of focus and becomes less visible */
+  opacity: .5;
+}
+.no-touch .cd-top:hover {
+  background-color: transparent;
+  opacity: 1;
+}
+
+@media only screen and (max-width: 767px) {
+  .cd-top {
+    right: 30px;
+    bottom: 30px;
+    width: 60px;
+    height: 60px;  
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .cd-top {
+    right: 40px;
+    bottom: 40px;
+    width: 60px;
+    height: 60px;  
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .cd-top {
+    height: 60px;
+    width: 60px;
+    right: 30px;
+    bottom: 30px;
+  }
+}
+
+/*
+
+==============// PARA ENCONTRAR O ERRO //======================
+
+* {
+  background: #000 !important;
+  color: #0f0 !important;
+  outline: solid #f00 1px !important;
+}
+==============// PARA ENCONTRAR O ERRO //======================
+*/
+
+a.morelink {
+	text-decoration:none;
+	outline: none;
+}
+.morecontent span {
+	display: none;
+
+}

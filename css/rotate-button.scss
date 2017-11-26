@@ -1,0 +1,43 @@
+
+
+.circle-plus {
+    height: 2.5em;
+    width: 2.5em;
+    font-size: 1em;
+    opacity: .7;
+    position: absolute;
+    margin-left: 90px;
+    margin-top: 5px;
+}
+
+.circle-plus .circle {
+    position: relative;
+    width: 2.55em;
+    height: 2.5em;
+    border-radius: 100%;
+    border: solid .5em #DFDAD7;
+}
+
+.icon-plus {
+    margin-left: 20%;
+    font-size: 22px !important;
+    margin-top: 10%;
+}
+
+.icon-plus .close {
+    color: #f98e67
+}
+
+.rotate{
+    -moz-transition: all 0.5s linear;
+    -webkit-transition: all 0.5s linear;
+    transition: all 0.5s linear;
+}
+
+.rotate.down{
+    -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
