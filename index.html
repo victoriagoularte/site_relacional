@@ -514,6 +514,7 @@
     <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.9/themes/start/jquery-ui.css" type="text/css" media="all" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script type="text/javascript" src="/js/main_top.js"></script>
+    <script type="text/javascript" src="js/jquery.collapse.js"></script>
     <script type="text/javascript" src="/js/card_collapse.js"></script>
     <script type="text/javascript" src="js/jquery.mCustomScrollbar.js"></script>
     <script type="text/javascript" src="js/mdb.js"></script>
@@ -524,7 +525,52 @@
     </script>
 
 
+     <script>
+        
 
+        $(document).ready(function() {
+        var showChar = 100;
+        var ellipsestext = "...";
+        var moretext = "more";
+        var lesstext = "less";
+        $('.more').each(function() {
+            var content = $(this).html();
+
+            if(content.length > showChar) {
+
+                var c = content.substr(0, showChar);
+                var h = content.substr(showChar-1, content.length - showChar);
+
+                //var html = c + '<span class="moreelipses ">'+ellipsestext+'</span>&nbsp;<span class="morecontent"><span>' + h + '</span>&nbsp;&nbsp;<a href="" class="morelink">'+moretext+'</a></span>';
+                var html = c + '<span class="moreelipses ">'+ellipsestext+'</span>&nbsp;<span class="morecontent"><span>' + h + '</span>&nbsp;&nbsp; <div id="circle" class="circle-plus closed morelink rotate"><div class="circle"><i id="icon" class="fa fa-plus icon-plus"></i></span></div></div></div></span>';
+
+                $(this).html(html);
+            }
+
+        });
+
+        $(".morelink").click(function(){
+            if($(this).hasClass("less")) {
+                $(this).removeClass("less");                
+            } else {
+                $(this).addClass("less");
+                document.getElementById('tabSelector').style.height = '460px'
+            }
+            $(this).parent().prev().toggle();
+            $(this).prev().toggle();
+            return false;
+        });
+
+        $(".rotate").click(function(){
+            if($(this).hasClass("down")) {
+                $(this).removeClass("down")
+            } else {
+                 $(this).addClass("down");
+            }
+           
+        })
+    });
+    </script>
 
 
 
@@ -636,53 +682,6 @@
                 map: map
             });
         }
-    </script>
-
-    <script>
-        
-
-        $(document).ready(function() {
-        var showChar = 100;
-        var ellipsestext = "...";
-        var moretext = "more";
-        var lesstext = "less";
-        $('.more').each(function() {
-            var content = $(this).html();
-
-            if(content.length > showChar) {
-
-                var c = content.substr(0, showChar);
-                var h = content.substr(showChar-1, content.length - showChar);
-
-                //var html = c + '<span class="moreelipses ">'+ellipsestext+'</span>&nbsp;<span class="morecontent"><span>' + h + '</span>&nbsp;&nbsp;<a href="" class="morelink">'+moretext+'</a></span>';
-                var html = c + '<span class="moreelipses ">'+ellipsestext+'</span>&nbsp;<span class="morecontent"><span>' + h + '</span>&nbsp;&nbsp; <div id="circle" class="circle-plus closed morelink rotate"><div class="circle"><i id="icon" class="fa fa-plus icon-plus"></i></span></div></div></div></span>';
-
-                $(this).html(html);
-            }
-
-        });
-
-        $(".morelink").click(function(){
-            if($(this).hasClass("less")) {
-                $(this).removeClass("less");                
-            } else {
-                $(this).addClass("less");
-                document.getElementById('tabSelector').style.height = '460px'
-            }
-            $(this).parent().prev().toggle();
-            $(this).prev().toggle();
-            return false;
-        });
-
-        $(".rotate").click(function(){
-            if($(this).hasClass("down")) {
-                $(this).removeClass("down")
-            } else {
-                 $(this).addClass("down");
-            }
-           
-        })
-    });
     </script>
 
 </body>
