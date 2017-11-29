@@ -40,9 +40,9 @@ function smtpmailer($para, $de, $de_nome, $assunto, $corpo) {
 }
 
 
- if (smtpmailer('recebedor@dominio.com.br', 'enviador@gmail.com', 'Nome do Enviador', 'Assunto do Email', $Vai)) {
+ if (smtpmailer('vickgoularte@gmail.com', 'vickgoularte@gmail.com', 'Nome do Enviador', 'Assunto do Email', $Vai)) {
 
-	Header("location:http://www.dominio.com.br/obrigado.html"); // Redireciona para uma página de obrigado.
+	echo('foooi')
 
 }
 if (!empty($error)) echo $error;
