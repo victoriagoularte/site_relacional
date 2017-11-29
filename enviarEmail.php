@@ -21,7 +21,7 @@ function smtpmailer($para, $de, $de_nome, $assunto, $corpo) {
 	$mail->IsSMTP();		// Ativar SMTP
 	$mail->SMTPDebug = 0;		// Debugar: 1 = erros e mensagens, 2 = mensagens apenas
 	$mail->SMTPAuth = true;		// Autenticação ativada
-	$mail->SMTPSecure = 'ssl';	// SSL REQUERIDO pelo GMail
+	$mail->SMTPSecure = 'tls';	// SSL REQUERIDO pelo GMail
 	$mail->Host = 'smtp.gmail.com';	// SMTP utilizado
 	$mail->Port = 587;  		// A porta 587 deverá estar aberta em seu servidor
 	$mail->Username = GUSER;
