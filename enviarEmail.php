@@ -1,22 +1,49 @@
-  <?php
-  //1 – Definimos Para quem vai ser enviado o email
-  $para = "vickgoularte@gmail.com";
-  //2 - resgatar o nome digitado no formulário e  grava na variavel $nome
-  $nome = $_POST['nome'];
-  // 3 - resgatar o assunto digitado no formulário e  grava na variavel //$assunto
-  $assunto = $_POST['mensagem'];
-   //4 – Agora definimos a  mensagem que vai ser enviado no e-mail
-  $mensagem = "<strong>Nome:  </strong>".$nome;
-  $mensagem .= "<br>  <strong>Mensagem: </strong>".$_POST['mensagem'];
+<?php
 
-//5 – agora inserimos as codificações corretas e  tudo mais.
-  $headers =  "Content-Type:text/html; charset=UTF-8\n";
-  $headers .= "From:  gmail.com.br<vickgoularte@gmail.com>\n"; //Vai ser //mostrado que  o email partiu deste email e seguido do nome
-  $headers .= "X-Sender:  <vickgoularte@gmail.com>\n"; //email do servidor //que enviou
-  $headers .= "X-Mailer: PHP  v".phpversion()."\n";
-  $headers .= "X-IP:  ".$_SERVER['REMOTE_ADDR']."\n";
-  $headers .= "Return-Path:  <vickgoularte@gmail.com>\n"; //caso a msg //seja respondida vai para  este email.
-  $headers .= "MIME-Version: 1.0\n";
+require_once("phpmailer/class.phpmailer.php");
 
-mail($para, $assunto, $mensagem, $headers);  //função que faz o envio do email.
-  ?>
+$nome		= $_POST["nome"];	// Pega o valor do campo Nome
+$email		= $_POST["email"];	// Pega o valor do campo Email
+$mensagem	= $_POST["mensagem"];	// Pega os valores do campo Mensagem
+
+// Variável que junta os valores acima e monta o corpo do email
+
+$Vai 		= "Nome: $nome\n\nE-mail: $email\n\n \n\nMensagem: $mensagem\n";
+
+require_once("phpmailer/class.phpmailer.php");
+
+define('GUSER', 'vickgoularte@gmail.com');	// <-- Insira aqui o seu GMail
+define('GPWD', '02046010111213');		// <-- Insira aqui a senha do seu GMail
+
+function smtpmailer($para, $de, $de_nome, $assunto, $corpo) { 
+	global $error;
+	$mail = new PHPMailer();
+	$mail->IsSMTP();		// Ativar SMTP
+	$mail->SMTPDebug = 0;		// Debugar: 1 = erros e mensagens, 2 = mensagens apenas
+	$mail->SMTPAuth = true;		// Autenticação ativada
+	$mail->SMTPSecure = 'ssl';	// SSL REQUERIDO pelo GMail
+	$mail->Host = 'smtp.gmail.com';	// SMTP utilizado
+	$mail->Port = 587;  		// A porta 587 deverá estar aberta em seu servidor
+	$mail->Username = GUSER;
+	$mail->Password = GPWD;
+	$mail->SetFrom($de, $de_nome);
+	$mail->Subject = $assunto;
+	$mail->Body = $corpo;
+	$mail->AddAddress($para);
+	if(!$mail->Send()) {
+		$error = 'Mail error: '.$mail->ErrorInfo; 
+		return false;
+	} else {
+		$error = 'Mensagem enviada!';
+		return true;
+	}
+}
+
+
+ if (smtpmailer('recebedor@dominio.com.br', 'enviador@gmail.com', 'Nome do Enviador', 'Assunto do Email', $Vai)) {
+
+	Header("location:http://www.dominio.com.br/obrigado.html"); // Redireciona para uma página de obrigado.
+
+}
+if (!empty($error)) echo $error;
+?>
