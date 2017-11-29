@@ -42,7 +42,7 @@ function smtpmailer($para, $de, $de_nome, $assunto, $corpo) {
 
  if (smtpmailer('vickgoularte@gmail.com', 'vickgoularte@gmail.com', 'Nome do Enviador', 'Assunto do Email', $Vai)) {
 
-	echo('foooi')
+	echo 'roiii';
 
 }
 if (!empty($error)) echo $error;
